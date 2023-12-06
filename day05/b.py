@@ -51,3 +51,4 @@ for i in range(0,len(seeds),2):
         for j in range(start+(minseed-1)*seediter,start+(minseed+2)*seediter):
             minimum = min(minimum,findloc(j,arr))
 print(minimum)
+#20358599
